@@ -538,3 +538,10 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   .news-list li,   .news-date { flex-basis: auto; }
 }
 
+
+.table-caption { margin: 24px 0 8px !important; font-weight: 700; color: var(--navy); }
+.compare.admission { min-width: 760px; font-size: 0.93rem; table-layout: fixed; }
+.compare.admission th:nth-child(1) { width: 8.5em; }
+.compare.admission th:nth-child(2) { width: 36%; }
+.compare.admission th:nth-child(3) { width: 30%; }
+.notes { font-size: 0.92rem; color: #3a4650; }
