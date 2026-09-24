@@ -5,98 +5,74 @@ permalink: /seminar/
 theme: friendly
 hero_style: navy
 eyebrow: Undergraduate Seminar
-hero: '<span>データで、</span><span>投資の「なぜ？」を</span><span>解き明かそう。</span>'
-hero_lead: 五島ゼミは、横浜国立大学経営学部の学部生を対象に、投資理論（Investment）×データサイエンス（Data Science）を学ぶゼミです。仲間と一緒に基礎から学び、最後は自分の研究を学外で発表することを目指します。
+hero: '<span>学部ゼミ</span>'
+hero_lead: 横浜国立大学経営学部の学部生を対象に、投資理論（Investment）×データサイエンス（Data Science）をテーマとした研究活動を行うゼミです。
 hero_buttons:
-  - label: 3年間の流れを見る
-    url: /seminar/#roadmap
+  - label: 3年間の活動
+    url: /seminar/#activities
     style: white
+  - label: 選考について
+    url: /seminar/#selection
+    style: ghost
   - label: よくある質問
     url: /seminar/#faq
     style: ghost
-description: 横浜国立大学経営学部・五島ゼミ（投資理論×データサイエンス）の紹介です。
+description: 横浜国立大学経営学部・五島ゼミ（投資理論×データサイエンス）の案内です。
 has_contact: true
 ---
 
-<h2><span class="en">Why Goshima Seminar</span>五島ゼミの3つの特徴</h2>
+<h2><span class="en">Overview</span>ゼミの概要</h2>
 
-<div class="features">
-  <div class="feature">
-    <span class="feature-icon">{% include icon.html name="code" %}</span>
-    <h3>未経験からスタートできる</h3>
-    <p>プログラミングの経験やデータサイエンス科目の履修歴は、選考に一切関係ありません。Pythonを使ったデータ分析は、ゼミの中で基礎から身につけます。</p>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">{% include icon.html name="team" %}</span>
-    <h3>チームでコンペに挑戦</h3>
-    <p>3年次は3〜4名のグループで、ファイナンス関連のデータ分析コンペティションに参加します。仲間と議論しながら分析を進めます。</p>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">{% include icon.html name="mic" %}</span>
-    <h3>学外で研究を発表</h3>
-    <p>輪読や学内発表だけでなく、理系の研究室のように学会やコンペで成果を発表します。ゼミ生はSDSC2024やCSSJ2025で発表しました。</p>
-  </div>
-</div>
+2・3年次には、株式市場データや資産価格データを題材として、論文の輪読や分析の実装を通じて、投資理論と実証研究の基本的な方法論を学びます。4年次には、それまでに身につけたファイナンスとデータ分析の知識を活用し、各自の関心に基づいた研究テーマに取り組みます。研究は学術論文を出発点とし、仮説を立て、データに基づいて検証するという実証研究のプロセスを重視します。
 
-<section class="band band-accent">
-  <h2><span class="en">For You</span>こんな人にぴったり</h2>
-  <ul class="chips">
-    <li>株や投資のしくみに興味がある</li>
-    <li>データ分析・AIを使えるようになりたい</li>
-    <li>Pythonを学んでみたい</li>
-    <li>金融業界（投資銀行・資産運用・政府系金融機関）を志望</li>
-    <li>データサイエンティストやクオンツを目指したい</li>
-    <li>大学院進学も考えている</li>
-  </ul>
-</section>
+輪読や学内発表にとどまらず、理系の研究室に近い形で、研究成果を学会やデータ分析コンペティションなどで対外的に発表することを目標としています。
 
-<h2 id="roadmap"><span class="en">Roadmap</span>3年間の流れ</h2>
+ファイナンスやデータサイエンスに関心を持つ学生の参加を歓迎します。金融市場の理解やデータ分析の技能は、投資銀行、資産運用会社、政府系金融機関など金融業界への就職を考えている学生にとっても役立つものです。
+
+<h2 id="activities"><span class="en">Activities</span>3年間の活動</h2>
 
 <ol class="roadmap">
   <li>
     <span class="step">2年次</span>
-    <h3>基礎を固める</h3>
-    <p>論文の輪読や演習を通じて、ファイナンスとデータ分析の基礎を身につけます。株式市場データや資産価格データを題材に、分析の実装にも取り組みます。</p>
-    <span class="tag">輪読・演習・Python</span>
+    <h3>基礎の習得</h3>
+    <p>輪読や演習を通じて、ファイナンスおよびデータ分析に関する基礎的な知識を身につけます。</p>
   </li>
   <li>
     <span class="step">3年次</span>
-    <h3>チームでコンペに挑戦</h3>
-    <p>3〜4名のグループでファイナンス関連のコンペティションに参加します。分析の内容を3年生の終わり頃に学会で発表することもあります。</p>
-    <span class="tag">グループ研究・コンペ・学会発表</span>
+    <h3>グループでのコンペ参加</h3>
+    <p>3〜4名のグループでファイナンス関連のコンペティションに参加します。分析内容を3年生の終わり頃に学会で発表することもあります。</p>
   </li>
   <li>
     <span class="step">4年次</span>
-    <h3>自分の研究をかたちに</h3>
-    <p>1年間かけて、各自の関心に基づいたテーマで卒業論文を執筆します。学会発表やインゼミを通じて、成果を学外に発信することを目指します。</p>
-    <span class="tag">卒業論文・学会発表・インゼミ</span>
+    <h3>卒業論文</h3>
+    <p>1年間かけて個人で卒業論文を執筆します。学会発表やインゼミを通じて、成果を対外的に発表することを目指します。</p>
   </li>
 </ol>
 
-<h2><span class="en">What You Learn</span>ゼミで学ぶこと</h2>
+<h2><span class="en">Topics</span>学ぶ内容</h2>
 
 <div class="features">
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="chart" %}</span>
     <h3>計量ファイナンス（投資理論）</h3>
-    <p>株価などの金融データを使い、市場の動きやリスク、資産価格が決まるしくみをデータから理解します。ニュースや企業開示資料などのテキストデータを使った分析も扱います。</p>
+    <p>株式市場データや資産価格データなどの金融データを用いて、投資理論や資産価格の仕組みを分析します。計量ファイナンスの手法を用いて、金融市場の動きやリスク、資産価格の決定メカニズムをデータに基づいて理解することを目指します。ニュース記事、企業開示資料、SNSなどのテキストデータを用いた市場分析も扱います。</p>
     <ul>
       <li>投資リスクの定量分析</li>
       <li>資産価格の予測モデル開発</li>
       <li>金融市場のアノマリーの分析</li>
       <li>マクロ経済指標と金融市場の関係</li>
-      <li>ニュースや企業開示情報を用いた分析</li>
+      <li>ニュースや企業開示情報を用いた金融市場分析</li>
     </ul>
   </div>
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="ai" %}</span>
     <h3>データサイエンス</h3>
-    <p>統計学・計量経済学・機械学習の手法と、テキストデータの分析（自然言語処理）を学びます。Pythonでデータを集め、整理し、分析して、結果を解釈する力を身につけます。</p>
+    <p>統計学、計量経済学、機械学習などの手法を学び、データから有用な情報を引き出すための分析技術を習得します。数値データだけでなく、テキストデータの分析（自然言語処理）も扱います。適切な分析手法を選び、データを整理・処理し、分析結果を解釈する力を身につけます。</p>
     <ul>
       <li>統計学・計量経済学</li>
       <li>機械学習</li>
-      <li>自然言語処理（テキスト分析）</li>
-      <li>Pythonによるデータ収集・処理・分析</li>
+      <li>自然言語処理（テキストデータ分析）</li>
+      <li>Python を用いたデータ収集・処理・分析</li>
     </ul>
   </div>
 </div>
@@ -106,43 +82,37 @@ has_contact: true
 <ul class="checklist">
   <li>基礎的な知識やスキルを身につける</li>
   <li>関連する研究論文を読み、再現できるようになる</li>
-  <li>自分の研究テーマの意義や分析方法を、自分の言葉で説明・議論できる</li>
-  <li>卒業研究の成果を論文にまとめる（さらに学外で発表できるようになる）</li>
+  <li>自分の研究テーマについて、その意義や分析方法を自分の言葉で説明・議論できる</li>
+  <li>卒業研究の成果を論文としてまとめる（さらに対外発表ができるようになる）</li>
 </ul>
 
-<section class="band">
-  <h2><span class="en">Balance</span>ほかの活動とも両立できます</h2>
-  <div class="features">
-    <div class="feature">
-      <span class="feature-icon">{% include icon.html name="briefcase" %}</span>
-      <h3>就活・インターン</h3>
-      <p>ゼミと日程が重なった場合は考慮します。気軽に相談してください。</p>
-    </div>
-    <div class="feature">
-      <span class="feature-icon">{% include icon.html name="plane" %}</span>
-      <h3>留学</h3>
-      <p>留学も問題ありません。例年、各学年1名ほどが留学しています。</p>
-    </div>
-    <div class="feature">
-      <span class="feature-icon">{% include icon.html name="home" %}</span>
-      <h3>ゼミ合宿なし</h3>
-      <p>ゼミ合宿は基本的に行わない方針です。</p>
-    </div>
-  </div>
+<h3>関連する授業</h3>
+
+教員が担当している次の授業は、ゼミの内容と関連しています。このほか、データサイエンス関連科目を履修するとゼミでの学習の理解が深まります。
+
+- 統計学基礎
+- データサイエンス・ゼミナール
+- 経営学研究のためのテキストデータ分析
+- 銀行論
+
+<section class="band" id="results">
+  <h2><span class="en">Student Research</span>ゼミ生の研究発表</h2>
+  {% include student-pubs.html %}
+  <p class="muted">研究室全体の研究については<a href="{{ '/research/' | relative_url }}">研究</a>のページをご覧ください。</p>
 </section>
 
-<h2><span class="en">Graduate Track</span>大学院進学を目指す人へ</h2>
+<h2><span class="en">Graduate Track</span>大学院進学を希望する学生向けの活動</h2>
 
-通常のゼミ活動とは別に、大学院進学を目指す学生向けに、より本格的な研究活動を行っています。各自の関心や進路に合わせてテーマを決め、教員の個別指導を受けながら文献調査、データ分析、論文執筆を進めます。成果は学会や研究会で発表することを目指します。
+大学院進学を目指す学生のために、通常のゼミ活動とは別に、より本格的な学術研究に取り組む活動を行っています。研究テーマは各自の関心や将来の進路に応じて設定し、教員の個別指導のもとで文献調査、データ分析、論文執筆などを進め、成果を学会や研究会で発表することを目指します。
 
-学内の大学院だけでなく、他大学や海外の大学院、理系の大学院を目指す学生も積極的に受け入れています。学年に関係なく参加でき、学年やバックグラウンドの異なる学生同士で刺激し合いながら学んでいます。例年、各学年1名ほどが大学院に進学しています。興味のある人は、配属後に希望を伝えてください。
+進学先は学内の大学院に限らず、他大学や海外の大学院への進学を希望する学生も受け入れています。学年に関係なく実施しており、異なる学年や多様なバックグラウンドを持つ学生同士の交流を重視しています。例年、各学年1名ほどが大学院に進学しています。希望する場合は、配属後に伝えてください。
 
-<h2><span class="en">Selection</span>選考方法</h2>
+<h2 id="selection"><span class="en">Selection</span>選考について</h2>
 
 <ul class="checklist">
-  <li><strong>面接のみ</strong>で選考します。ゼミの方針と応募者の希望が合っているかを確認するための質問をします。</li>
-  <li><strong>プログラミングの経験や、データサイエンス関連科目の履修歴は選考に一切関係ありません。</strong></li>
-  <li>選考日程は学務を通じてお知らせします。質問はゼミ説明会のQ&amp;Aの時間に受け付けます。</li>
+  <li>面接による選考を行います。面接では、ゼミの方針と応募者の希望が合っているかどうかを確認するための質問をします。</li>
+  <li>プログラミングの経験や、データサイエンスに関する授業の履修歴は選考には関係ありません。</li>
+  <li>選考日程は学務を通じてお知らせします。選考に関する質問は、ゼミ説明会のQ&amp;Aの時間に受け付けます。</li>
 </ul>
 
 <h2 id="faq"><span class="en">FAQ</span>よくある質問</h2>
@@ -156,13 +126,7 @@ has_contact: true
 <details><summary>留学できますか？</summary><div><p>はい、問題ありません。大学には留学をサポートしてくれる様々なプログラム・奨学金がありますので、活用してください。例年、各学年一人ほど留学しています。</p></div></details>
 <details><summary>大学院進学を考えています。どうしたら良いですか？</summary><div><p>大学院進学希望者向けの研究指導も行っていますので、進学希望の場合は伝えてください。例年、各学年一人ほど進学しています。</p></div></details>
 <details><summary>理系の大学院への進学を希望しています。可能でしょうか？</summary><div><p>はい、可能です。ただし、経営学部のコースワークをこなすだけでは中々難しいので、大学院進学に向けた専用の勉強や研究活動が必要になります。早めにご相談いただけると、一緒に準備を進めやすくなります。</p></div></details>
-<details><summary>編入は受け入れてますか？</summary><div><p>受け入れ実績があります。まずはお気軽にご相談ください（受け入れ元の指導教員の許可が必要です）。</p></div></details>
+<details><summary>編入は受け入れてますか？</summary><div><p>受け入れ実績があります。まずはご相談ください（受け入れ元の指導教員の許可が必要です）。</p></div></details>
 </div>
 
-<section class="cta cta-navy" id="contact">
-  <h2>一緒にデータで金融市場を読み解こう！</h2>
-  <p>選考は面接のみ。未経験でも大丈夫です。ゼミ生の発表実績は研究実績のページで紹介しています。</p>
-  <a class="btn btn-white" href="{{ '/publications/' | relative_url }}">ゼミ生の研究実績を見る {% include icon.html name="arrow" %}</a>
-  <p class="cta-mail">{{ site.email }}</p>
-  <p class="cta-note">※ [at] を @ に置き換えてください</p>
-</section>
+{% include contact.html text="選考に関する質問は、ゼミ説明会のQ&amp;Aの時間に受け付けています。その他のお問い合わせは下記までご連絡ください。" %}

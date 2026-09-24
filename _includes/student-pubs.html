@@ -1,0 +1,8 @@
+{% for y in site.data.publications %}
+<h3>{{ y.year }}年</h3>
+<ul class="paper-list">
+{% for p in y.items %}
+  <li><span class="paper-authors">{{ p.authors }}</span> <span class="paper-title">{{ p.title }}</span> <span class="paper-venue">{{ p.venue }}{% if p.place %}（{{ p.place }}）{% endif %}{% if p.date %}、{{ p.date }}{% endif %}</span></li>
+{% endfor %}
+</ul>
+{% endfor %}

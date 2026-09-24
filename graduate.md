@@ -4,8 +4,8 @@ title: 大学院
 permalink: /graduate/
 hero_style: navy
 eyebrow: Graduate School
-hero: '<span>研究者としての基礎を、</span><span>ここで築く。</span>'
-hero_lead: ファイナンス×データサイエンスの実証研究で、学会発表と査読付学術雑誌への掲載を目指します。学内・学外、文系・理系を問わず、多様なバックグラウンドや実務経験を持つ学生を歓迎します。
+hero: '<span>大学院</span>'
+hero_lead: 修士課程（博士前期課程）・博士後期課程の案内です。学内・学外、文系・理系を問わず、多様なアカデミック・バックグラウンドや実務経験を持つ学生を受け入れています。
 hero_buttons:
   - label: 修士課程
     url: /graduate/#master
@@ -13,30 +13,30 @@ hero_buttons:
   - label: 博士後期課程
     url: /graduate/#doctor
     style: ghost
-  - label: 事前面談の相談
-    url: /graduate/#contact
+  - label: 出願までの流れ
+    url: /graduate/#flow
     style: ghost
 description: 横浜国立大学大学院・五島研究室（修士課程・博士後期課程）の案内です。
 has_contact: true
 ---
 
-<h2><span class="en">Research Training</span>研究指導の特徴</h2>
+<h2><span class="en">Research Training</span>研究指導</h2>
 
 <div class="features">
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="chat" %}</span>
-    <h3>週1回のミーティング</h3>
-    <p>修士はグループ、博士は個別のミーティングを週1回を目安に行い、研究の進捗を継続的に指導します。社会人の場合はオンラインのミーティングも活用します。</p>
+    <h3>ミーティング</h3>
+    <p>週1回を目安に、修士はグループ、博士は個別のミーティングを行い、研究を進めます。社会人の場合はオンラインのミーティングも活用します。</p>
   </div>
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="paper" %}</span>
-    <h3>学会発表から論文掲載まで</h3>
-    <p>国内外の学会・研究会での発表と、査読付学術雑誌への投稿を目指します。研究成果を学外に発信する力を身につけます。</p>
+    <h3>学会発表と論文投稿</h3>
+    <p>国内外の学会・研究会での発表と、査読付学術雑誌への投稿を目指します。博士後期課程では、学会や研究会での定期的な報告を義務付けています。</p>
   </div>
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="award" %}</span>
-    <h3>研究と実務を知る指導教員</h3>
-    <p>日本銀行金融研究所、早稲田大学、三菱UFJ銀行等を経て着任。証券アナリストジャーナル賞などの受賞歴があります。<a href="{{ '/teacher/' | relative_url }}">教員紹介へ</a></p>
+    <h3>指導教員の研究分野</h3>
+    <p>テキストデータ分析、機械学習の金融応用、市場の構造とリスク、気候変動とファイナンスなどを研究しています。詳しくは<a href="{{ '/research/' | relative_url }}">研究</a>と<a href="{{ '/teacher/' | relative_url }}">教員紹介</a>をご覧ください。</p>
   </div>
 </div>
 
@@ -55,18 +55,18 @@ has_contact: true
     </div>
     <div class="feature">
       <span class="feature-icon">{% include icon.html name="yen" %}</span>
-      <h3>研究経費をサポート</h3>
+      <h3>研究経費</h3>
       <p>PC代・データ購入費・図書購入費・学会参加費・発表旅費・論文掲載料などは、研究室の予算で可能な限り負担します。</p>
     </div>
     <div class="feature">
       <span class="feature-icon">{% include icon.html name="moon" %}</span>
-      <h3>夜間・休日の連絡なし</h3>
+      <h3>夜間・休日の連絡</h3>
       <p>夜間や休日に研究に関する連絡は基本的にしません（学会開催中や締切直前は除く）。</p>
     </div>
   </div>
 </section>
 
-<h2><span class="en">Requirements</span>求める基礎知識・スキル</h2>
+<h2><span class="en">Requirements</span>前提とする知識・スキル</h2>
 
 出身学部や大学院は問いませんが、研究を進めるために次の知識・スキルを前提としています。また、大学院入学までに、研究テーマについて一定の方向性を定めていただきます。
 
@@ -74,6 +74,15 @@ has_contact: true
   <li>学部レベルの統計学・計量経済学・機械学習などのデータ分析の基礎知識</li>
   <li>データ分析に関する基礎的なプログラミングスキル（Python・R・Matlab など）</li>
 </ul>
+
+<h2 id="flow"><span class="en">Application</span>出願までの流れ</h2>
+
+<ol class="steps">
+  <li><h3>事前の相談・面談</h3><p>研究テーマや研究計画、進学に関する質問などについて、事前の面談が可能です（オンライン可）。博士後期課程を希望する場合は、指導教員とのマッチング（研究テーマや指導方針）が重要なため、事前面談を強くお勧めします。</p></li>
+  <li><h3>研究テーマの検討</h3><p>大学院入学までに、研究テーマについて一定の方向性を定めていただきます。修士課程は2年間のため、入学前にある程度テーマが固まっていると研究を進めやすくなります。</p></li>
+  <li><h3>英語スコアの準備</h3><p>出願には英語能力テストのスコア（修士課程はTOEIC/TOEFL、博士後期課程はTOEFL）が必要です。</p></li>
+  <li><h3>出願・入試</h3><p>各コースの募集要項に従って出願します。募集時期と入試の形式は下の表と各課程の説明をご覧ください。</p></li>
+</ol>
 
 <h2><span class="en">Programs</span>修士課程と博士後期課程</h2>
 
@@ -148,4 +157,4 @@ has_contact: true
 <details><summary>日本学術振興会の特別研究員（PD）や外国人特別研究員の受け入れは可能ですか？</summary><div><p>可能です。受け入れる際には書類を作成する必要があるので、お早めにご相談ください。</p></div></details>
 </div>
 
-{% include contact.html title="まずは事前面談から（オンライン可）" text="研究テーマや研究計画の相談、進学に関する質問など、お気軽にご連絡ください。" %}
+{% include contact.html title="事前の相談・面談（オンライン可）" text="研究テーマや研究計画の相談、進学に関する質問などは、下記のメールアドレスまでご連絡ください。" %}

@@ -23,8 +23,7 @@
 /* 学部ゼミ：色は共通、見出しだけ丸ゴシックで親しみやすく */
 .theme-friendly .hero-title,
 .theme-friendly .content h2,
-.theme-friendly .roadmap h3,
-.theme-friendly .cta h2 { font-family: var(--round); font-weight: 800; }
+.theme-friendly .roadmap h3 { font-family: var(--round); font-weight: 800; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -270,23 +269,6 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .path-more svg { transition: transform 0.2s; }
 .path:hover .path-more svg { transform: translateX(4px); }
 
-/* ---------- Stats ---------- */
-.stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
-}
-.stat {
-  background: #fff;
-  border-radius: var(--radius);
-  padding: 24px 20px;
-  text-align: center;
-  border: 1px solid var(--line);
-}
-.stat-num { display: block; font-size: 2.4rem; font-weight: 900; color: var(--ynu-blue); line-height: 1.2; font-variant-numeric: tabular-nums; }
-.stat-num small { font-size: 1rem; font-weight: 700; margin-left: 2px; }
-.stat-label { display: block; margin-top: 6px; font-size: 0.9rem; color: var(--muted); }
-
 /* ---------- Feature cards ---------- */
 .features {
   display: grid;
@@ -340,19 +322,6 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 }
 .roadmap h3 { margin: 12px 0 6px !important; font-family: var(--round); font-weight: 800; font-size: 1.25rem; }
 .roadmap p { margin: 0; font-size: 0.95rem; color: #3a4650; }
-.roadmap .tag { display: inline-block; margin-top: 12px; font-size: 0.82rem; color: var(--accent-dark); font-weight: 700; }
-
-/* ---------- Chips ---------- */
-.chips { display: flex; flex-wrap: wrap; gap: 10px; padding: 0 !important; list-style: none; }
-.chips li {
-  margin: 0 !important;
-  padding: 8px 18px;
-  border-radius: 999px;
-  background: #fff;
-  border: 2px solid var(--accent-light);
-  font-weight: 500;
-}
-.chips li::before { content: "#"; color: var(--accent); font-weight: 700; margin-right: 4px; }
 
 /* ---------- Checklist ---------- */
 .checklist { list-style: none; padding: 0 !important; }
@@ -422,20 +391,57 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .faq details > div { padding: 0 20px 16px; color: #3a4650; }
 .faq details > div p { margin: 0; }
 
-/* ---------- CTA ---------- */
-.cta {
-  margin: 80px 0 0;
-  padding: 48px 32px;
-  border-radius: 22px;
-  text-align: center;
-  color: #fff;
+/* ---------- Contact ---------- */
+.contact-box {
+  margin: 72px 0 0;
+  padding: 32px;
+  border-radius: var(--radius);
+  background: var(--blue-light);
+  border: 1px solid #cfe0f5;
 }
-.cta-navy { background: linear-gradient(135deg, #0a2c55, #005bac); }
-.content .cta h2 { color: inherit; margin: 0 0 12px; }
-.cta p { margin: 0 auto 8px; max-width: 40em; }
-.cta-mail { font-size: 1.25rem; font-weight: 700; margin-top: 18px !important; word-break: break-all; }
-.cta-note { font-size: 0.8rem; opacity: 0.8; }
-.cta .btn { margin-top: 16px; }
+.content .contact-box h2 { margin: 0 0 12px; font-size: 1.3rem; }
+.contact-box p { margin: 0 0 6px; }
+.contact-mail { font-size: 1.15rem; font-weight: 700; color: var(--ynu-blue); margin-top: 12px !important; word-break: break-all; }
+
+/* ---------- Research / papers ---------- */
+.feature-link { display: block; text-decoration: none; color: inherit; transition: border-color 0.15s, box-shadow 0.15s; }
+.feature-link:hover { color: inherit; border-color: var(--accent); box-shadow: 0 8px 24px rgba(10, 44, 85, 0.08); }
+.feature-link h3::after { content: " →"; color: var(--accent); }
+
+.theme-block { padding-top: 8px; }
+.theme-block + .theme-block { border-top: 1px solid var(--line); margin-top: 48px; }
+.theme-block h2 { margin-top: 48px !important; }
+
+.papers-toggle { margin: 16px 0 0; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.papers-toggle summary { cursor: pointer; padding: 12px 18px; font-weight: 500; color: var(--accent); }
+.papers-toggle[open] summary { border-bottom: 1px solid var(--line); }
+.papers-toggle .paper-list { padding: 4px 18px 12px !important; margin: 0; }
+
+.paper-list { list-style: none; padding: 0 !important; margin: 12px 0 24px; }
+.paper-list li { margin: 0 !important; padding: 12px 0; border-bottom: 1px dashed var(--line); font-size: 0.95rem; line-height: 1.7; }
+.paper-list li:last-child { border-bottom: 0; }
+.paper-title { display: block; font-weight: 500; color: var(--text); }
+.paper-title a { color: var(--text); }
+.paper-title a:hover { color: var(--accent); }
+.paper-authors, .paper-year { color: var(--muted); }
+.paper-venue { display: block; color: var(--muted); font-style: italic; }
+
+/* ---------- Steps（出願までの流れ） ---------- */
+.steps { list-style: none; padding: 0 !important; counter-reset: step; margin: 24px 0; }
+.steps li { position: relative; margin: 0 !important; padding: 0 0 24px 60px; counter-increment: step; }
+.steps li::before {
+  content: counter(step);
+  position: absolute; left: 0; top: 0;
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--accent); color: #fff; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.steps li:not(:last-child)::after { content: ""; position: absolute; left: 19px; top: 44px; bottom: 4px; width: 2px; background: var(--blue-light); }
+.steps h3 { margin: 6px 0 4px !important; font-size: 1.08rem; }
+.steps p { margin: 0; color: #3a4650; }
+
+.compare.info { min-width: 0; }
+.compare.info th { width: 9em; }
 
 /* ---------- Publications / Teacher ---------- */
 .pub-list { padding-left: 1.4em; }
@@ -456,7 +462,7 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 
 .award-list { list-style: none; padding: 0 !important; }
 .award-list li { display: flex; gap: 20px; padding: 8px 0; margin: 0 !important; border-bottom: 1px dashed var(--line); }
-.award-list .year { flex: 0 0 56px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.award-list .year { flex: 0 0 8em; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -522,7 +528,6 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   .band { margin-top: 56px; padding-block: 48px; }
   .path { padding: 28px 24px 24px; }
   .course { padding: 24px 20px; }
-  .cta { padding: 36px 20px; }
   .news-list li, .award-list li { flex-direction: column; gap: 0; }
   .news-date { flex-basis: auto; }
 }
