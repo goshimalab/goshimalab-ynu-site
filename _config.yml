@@ -8,8 +8,8 @@ researchmap: https://researchmap.jp/keiichi-goshima
 # GitHub Pages の公開URLに合わせて設定してください
 #  - ユーザー/組織サイト (https://<name>.github.io/)       → baseurl: ""
 #  - プロジェクトサイト (https://<name>.github.io/<repo>/) → baseurl: "/<repo>"
-url: ""
-baseurl: ""
+url: "https://goshimalab.github.io"
+baseurl: "/goshimalab-ynu-site"
 
 permalink: pretty
 markdown: kramdown
