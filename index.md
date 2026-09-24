@@ -76,7 +76,7 @@ has_contact: true
 <table class="compare info">
   <tbody>
     <tr><th>名称</th><td>横浜国立大学 五島研究室</td></tr>
-    <tr><th>教員</th><td>五島 圭一（大学院国際社会科学研究院 准教授）</td></tr>
+    <tr><th>教員</th><td><a href="{{ '/teacher/' | relative_url }}">五島 圭一</a>（大学院国際社会科学研究院 准教授）</td></tr>
     <tr><th>学部</th><td>経営学部（学部ゼミ）</td></tr>
     <tr><th>大学院</th><td>国際社会科学府（修士課程・博士後期課程）、先進実践学環（修士課程）</td></tr>
     <tr><th>研究分野</th><td>ファイナンス、データサイエンス、自然言語処理、機械学習</td></tr>

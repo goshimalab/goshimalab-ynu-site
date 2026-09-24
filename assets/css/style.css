@@ -454,6 +454,23 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 
 
 
+/* ---------- Teacher ---------- */
+.profile {
+  display: grid;
+  gap: 4px;
+  padding: 28px 32px;
+  background: var(--bg-soft);
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+.profile p { margin: 0; }
+.profile .name { font-size: 1.5rem; font-weight: 700; color: var(--navy); }
+.profile .name small { font-size: 0.9rem; color: var(--muted); font-weight: 400; margin-left: 8px; }
+
+.award-list { list-style: none; padding: 0 !important; }
+.award-list li { display: flex; gap: 20px; padding: 8px 0; margin: 0 !important; border-bottom: 1px dashed var(--line); }
+.award-list .year { flex: 0 0 8em; color: var(--muted); font-variant-numeric: tabular-nums; }
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--navy);
