@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-title">{{ site.title }}</p>
+      <p>横浜国立大学大学院 国際社会科学研究院</p>
+      <p>Mail: {{ site.email }}</p>
+    </div>
+    <img class="footer-logo" src="{{ '/assets/img/ynu-logo.jpg' | relative_url }}" alt="横浜国立大学">
+  </div>
+  <p class="container copyright">&copy; {{ site.time | date: "%Y" }} Goshima Lab, Yokohama National University</p>
+</footer>

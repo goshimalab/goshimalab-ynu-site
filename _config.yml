@@ -1,0 +1,23 @@
+title: 五島研究室
+title_en: Goshima Lab
+description: 横浜国立大学・五島研究室（ファイナンス × データサイエンス）
+lang: ja
+email: goshima-keiichi-vh[at]ynu.ac.jp
+researchmap: https://researchmap.jp/keiichi-goshima
+
+# GitHub Pages の公開URLに合わせて設定してください
+#  - ユーザー/組織サイト (https://<name>.github.io/)       → baseurl: ""
+#  - プロジェクトサイト (https://<name>.github.io/<repo>/) → baseurl: "/<repo>"
+url: ""
+baseurl: ""
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  auto_ids: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
