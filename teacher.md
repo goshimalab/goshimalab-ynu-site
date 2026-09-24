@@ -13,17 +13,6 @@ description: 五島研究室の教員（五島圭一）の経歴・受賞歴・�
   <p>日本銀行金融研究所、早稲田大学、三菱UFJ銀行等を経て、2023年より現職。</p>
 </div>
 
-<h2><span class="en">Career</span>経歴</h2>
-
-<ul class="award-list">
-  <li><span class="year">2023年–</span><span>横浜国立大学 大学院国際社会科学研究院 准教授</span></li>
-  <li><span class="year">2021年–</span><span>早稲田大学 産業経営研究所 招聘研究員</span></li>
-  <li><span class="year">2021–2022年</span><span>東京大学 政策評価研究教育センター 招聘研究員</span></li>
-  <li><span class="year">2019–2021年</span><span>早稲田大学 商学部 講師（任期付）</span></li>
-  <li><span class="year">2017–2021年</span><span>産業技術総合研究所 人工知能研究センター 協力研究員</span></li>
-  <li><span class="year">2016–2021年</span><span>日本銀行 金融研究所</span></li>
-</ul>
-
 <h2><span class="en">Awards</span>受賞歴</h2>
 
 <ul class="award-list">
