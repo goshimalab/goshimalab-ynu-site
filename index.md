@@ -8,7 +8,7 @@ hero_lead: 横浜国立大学・五島研究室では、ファイナンスとデ
 hero_buttons:
   - label: 学部ゼミを見る
     url: /seminar/
-    style: warm
+    style: white
   - label: 大学院を見る
     url: /graduate/
     style: ghost
@@ -18,7 +18,7 @@ has_contact: true
 <h2 class="center"><span class="en">For Students</span>あなたに合った入口から</h2>
 
 <div class="paths">
-  <a class="path path-warm" href="{{ '/seminar/' | relative_url }}">
+  <a class="path path-light" href="{{ '/seminar/' | relative_url }}">
     <span class="path-label">経営学部の学部生へ</span>
     <h3>未経験から、<br>学会発表まで。</h3>
     <p>データ分析と投資理論を、仲間と一緒にゼロから学ぶゼミです。</p>

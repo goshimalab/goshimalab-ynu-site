@@ -2,8 +2,8 @@
 layout: default
 title: 学部ゼミ
 permalink: /seminar/
-theme: warm
-hero_style: warm
+theme: friendly
+hero_style: navy
 eyebrow: Undergraduate Seminar
 hero: '<span>データで、</span><span>投資の「なぜ？」を</span><span>解き明かそう。</span>'
 hero_lead: 五島ゼミは、横浜国立大学経営学部の学部生を対象に、投資理論（Investment）×データサイエンス（Data Science）を学ぶゼミです。仲間と一緒に基礎から学び、最後は自分の研究を学外で発表することを目指します。
@@ -159,7 +159,7 @@ has_contact: true
 <details><summary>編入は受け入れてますか？</summary><div><p>受け入れ実績があります。まずはお気軽にご相談ください（受け入れ元の指導教員の許可が必要です）。</p></div></details>
 </div>
 
-<section class="cta cta-warm" id="contact">
+<section class="cta cta-navy" id="contact">
   <h2>一緒にデータで金融市場を読み解こう！</h2>
   <p>選考は面接のみ。未経験でも大丈夫です。ゼミ生の発表実績は研究実績のページで紹介しています。</p>
   <a class="btn btn-white" href="{{ '/publications/' | relative_url }}">ゼミ生の研究実績を見る {% include icon.html name="arrow" %}</a>
