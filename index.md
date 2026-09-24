@@ -38,6 +38,7 @@ has_contact: true
 
 <section class="band">
   <h2><span class="en">For Students</span>学生の方へ</h2>
+  <p>五島研究室では、「ファイナンス×データサイエンス」を中心とした研究に意欲的に取り組みたい学生を歓迎します。学部ゼミ・大学院とも、ファイナンスやデータ分析に関心のある方の応募をお待ちしています。</p>
   <div class="paths">
     <a class="path path-light" href="{{ '/seminar/' | relative_url }}">
       <span class="path-label">経営学部の学部生</span>
@@ -52,7 +53,7 @@ has_contact: true
     <a class="path path-navy" href="{{ '/graduate/' | relative_url }}">
       <span class="path-label">大学院進学を検討している方</span>
       <h3>大学院（修士・博士）</h3>
-      <p>週1回のミーティングを軸に研究を進め、学会発表と査読付学術雑誌への投稿を目指します。学内・学外、文系・理系を問わず受け入れています。</p>
+      <p>週1回のミーティングを軸に研究を進め、学会発表と査読付学術雑誌への投稿を目指します。学内・学外、文系・理系を問わず歓迎します。</p>
       <ul>
         <li>入学前の面談が可能です（オンライン可）</li>
         <li>社会人向けの入試があります（修士課程・博士後期課程）</li>
