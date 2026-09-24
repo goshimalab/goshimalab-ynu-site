@@ -1,8 +1,6 @@
 # サイト上部のメニュー
 - title: ホーム
   url: /
-- title: 学べること
-  url: /learning/
 - title: 学部ゼミ
   url: /seminar/
 - title: 大学院

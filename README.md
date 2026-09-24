@@ -10,7 +10,7 @@ GitHub Pages（Jekyll）で公開している、横浜国立大学・五島研�
 | News を追加 | `_data/news.yml`（一番上に追記） |
 | 学生の研究成果を追加 | `_data/publications.yml` |
 | メニュー項目を変更 | `_data/navigation.yml` |
-| 各ページの本文 | `index.md`（ホーム）, `seminar.md`（学部ゼミ）, `graduate.md`（大学院）, `learning.md`（学べること）, `teacher.md`（教員紹介） |
+| 各ページの本文 | `index.md`（ホーム）, `seminar.md`（学部ゼミ）, `graduate.md`（大学院）, `teacher.md`（教員紹介） |
 | メールアドレス等 | `_config.yml` |
 | デザイン | `assets/css/style.css` |
 

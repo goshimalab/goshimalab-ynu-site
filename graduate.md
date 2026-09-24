@@ -36,7 +36,7 @@ has_contact: true
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="award" %}</span>
     <h3>研究テーマ</h3>
-    <p>ファイナンス×データサイエンスの範囲で、各自の関心に基づいて設定します。扱うテーマや手法の例は<a href="{{ '/learning/' | relative_url }}">学べること</a>をご覧ください。</p>
+    <p>ファイナンス×データサイエンスの範囲で、各自の関心に基づいて設定します。扱うテーマと手法の例は<a href="#themes">下記</a>のとおりです。</p>
   </div>
 </div>
 
@@ -65,6 +65,46 @@ has_contact: true
     </div>
   </div>
 </section>
+
+<h2 id="themes"><span class="en">Themes &amp; Methods</span>研究テーマと手法の例</h2>
+
+研究テーマは各自の関心に基づいて設定します。扱うテーマ・手法・データの例は次のとおりです。
+
+<div class="features">
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="chart" %}</span>
+    <h3>テーマの例</h3>
+    <ul>
+      <li>投資リスクの定量分析</li>
+      <li>資産価格の予測モデル</li>
+      <li>金融市場のアノマリー</li>
+      <li>マクロ経済と金融市場の関係</li>
+      <li>ニュース・企業開示情報と金融市場</li>
+      <li>気候変動リスクと金融市場</li>
+    </ul>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="ai" %}</span>
+    <h3>手法の例</h3>
+    <ul>
+      <li>統計学・計量経済学（回帰分析、時系列分析など）</li>
+      <li>機械学習・深層学習</li>
+      <li>自然言語処理（テキストデータ分析）</li>
+      <li>Python などによるデータ収集・分析</li>
+    </ul>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="paper" %}</span>
+    <h3>データの例</h3>
+    <ul>
+      <li>株価・取引データ</li>
+      <li>債券・為替・暗号資産などの価格</li>
+      <li>企業の財務情報</li>
+      <li>マクロ経済指標</li>
+      <li>ニュース記事・企業開示資料・SNS</li>
+    </ul>
+  </div>
+</div>
 
 <h2><span class="en">Requirements</span>前提とする知識・スキル</h2>
 

@@ -11,6 +11,9 @@ hero_buttons:
   - label: 3年間の活動
     url: /seminar/#activities
     style: white
+  - label: 学ぶ内容
+    url: /seminar/#finance
+    style: ghost
   - label: 選考について
     url: /seminar/#selection
     style: ghost
@@ -49,44 +52,105 @@ has_contact: true
   </li>
 </ol>
 
-<h2><span class="en">Topics</span>学ぶ内容</h2>
+<h2 id="finance"><span class="en">Finance</span>学ぶ内容①　ファイナンス</h2>
 
-各分野の内容は<a href="{{ '/learning/' | relative_url }}">学べること</a>のページで詳しく紹介しています。
+株価や金利などの金融データを題材に、投資理論や資産価格が決まるしくみを学びます。理論を学ぶだけでなく、実際のデータを使って「本当にそうなっているか」を確かめる実証分析を重視します。扱うテーマの例は次のとおりです。
 
-<div class="features">
+<div class="features features-3">
   <div class="feature">
-    <span class="feature-icon">{% include icon.html name="chart" %}</span>
-    <h3>計量ファイナンス（投資理論）</h3>
-    <p>株式市場データや資産価格データなどの金融データを用いて、投資理論や資産価格の仕組みを分析します。計量ファイナンスの手法を用いて、金融市場の動きやリスク、資産価格の決定メカニズムをデータに基づいて理解することを目指します。ニュース記事、企業開示資料、SNSなどのテキストデータを用いた市場分析も扱います。</p>
-    <ul>
-      <li>投資リスクの定量分析</li>
-      <li>資産価格の予測モデル開発</li>
-      <li>金融市場のアノマリーの分析</li>
-      <li>マクロ経済指標と金融市場の関係</li>
-      <li>ニュースや企業開示情報を用いた金融市場分析</li>
-    </ul>
+    <h3>投資のリスクを測る</h3>
+    <p>株式などの資産がどれくらい値動きするか、損失がどの程度起こりうるかを数値で表す方法を学びます。</p>
+    <p class="example">例となる問い：複数の資産を組み合わせると、リスクはどのくらい小さくなるか。</p>
   </div>
   <div class="feature">
-    <span class="feature-icon">{% include icon.html name="ai" %}</span>
-    <h3>データサイエンス</h3>
-    <p>統計学、計量経済学、機械学習などの手法を学び、データから有用な情報を引き出すための分析技術を習得します。数値データだけでなく、テキストデータの分析（自然言語処理）も扱います。適切な分析手法を選び、データを整理・処理し、分析結果を解釈する力を身につけます。</p>
-    <ul>
-      <li>統計学・計量経済学</li>
-      <li>機械学習</li>
-      <li>自然言語処理（テキストデータ分析）</li>
-      <li>Python を用いたデータ収集・処理・分析</li>
-    </ul>
+    <h3>資産価格を予測する</h3>
+    <p>過去のデータや経済の情報から、将来の株価や収益率を予測するモデルをつくり、その精度を検証します。</p>
+    <p class="example">例となる問い：どのような情報が、将来の株式リターンの予測に役立つか。</p>
+  </div>
+  <div class="feature">
+    <h3>市場のアノマリーを調べる</h3>
+    <p>標準的な理論では説明しにくい、株価の規則的なパターン（アノマリー）が本当に存在するかを、データで検証します。</p>
+    <p class="example">例となる問い：特定の特徴を持つ企業の株式は、平均的に高い収益を上げているか。</p>
+  </div>
+  <div class="feature">
+    <h3>経済と金融市場の関係</h3>
+    <p>景気、物価、金融政策などのマクロ経済の動きが、株式市場や債券市場にどのように影響するかを分析します。</p>
+    <p class="example">例となる問い：経済指標の発表に対して、市場はどのように反応するか。</p>
+  </div>
+  <div class="feature">
+    <h3>ニュースや開示情報と市場</h3>
+    <p>ニュース記事、企業の開示資料、SNSなどの文章に含まれる情報が、株価や投資家の行動にどう関係するかを分析します。</p>
+    <p class="example">例となる問い：企業に関するニュースの内容は、その後の株価の動きと関係があるか。</p>
+  </div>
+  <div class="feature">
+    <h3>気候変動と金融市場</h3>
+    <p>気候変動に関わるリスクや企業の環境への取り組みが、金融市場でどのように評価されているかを分析します。</p>
+    <p class="example">例となる問い：CO2排出量の多い企業と少ない企業で、株式の評価に違いはあるか。</p>
   </div>
 </div>
 
-<h3>ゼミの目標</h3>
+<section class="band" id="datascience">
+  <h2><span class="en">Data Science</span>学ぶ内容②　データサイエンス</h2>
+  <p>データから意味のある情報を取り出すための手法を学びます。手法の考え方を理解したうえで、実際にプログラムを書いて分析できるようになることを目指します。</p>
+  <div class="features features-3">
+    <div class="feature">
+      <span class="feature-icon">{% include icon.html name="chart" %}</span>
+      <h3>統計学</h3>
+      <p>データの特徴をまとめる方法や、限られたデータから全体について判断する方法（推定・検定）を学びます。すべての分析の土台になります。</p>
+    </div>
+    <div class="feature">
+      <span class="feature-icon">{% include icon.html name="paper" %}</span>
+      <h3>計量経済学</h3>
+      <p>経済・金融データを使って、ある要因が結果にどれだけ影響しているかを推定する方法を学びます。回帰分析や時系列分析などを扱います。</p>
+    </div>
+    <div class="feature">
+      <span class="feature-icon">{% include icon.html name="ai" %}</span>
+      <h3>機械学習</h3>
+      <p>大量のデータからパターンを学習し、予測や分類を行う手法を学びます。深層学習（ディープラーニング）も含め、金融データへの応用を扱います。</p>
+    </div>
+    <div class="feature">
+      <span class="feature-icon">{% include icon.html name="text" %}</span>
+      <h3>自然言語処理</h3>
+      <p>文章をコンピュータで扱うための技術を学びます。ニュース記事や企業の開示資料などのテキストを数値化し、分析に使えるようにします。</p>
+    </div>
+    <div class="feature">
+      <span class="feature-icon">{% include icon.html name="code" %}</span>
+      <h3>プログラミング（Python）</h3>
+      <p>Python を使って、データの収集、整理・加工、分析、結果の可視化までを自分で行えるようにします。</p>
+    </div>
+  </div>
+  <p class="muted">配属時点でこれらを習得している必要はありません。ゼミ活動の中で学びます。</p>
+</section>
 
-<ul class="checklist">
-  <li>基礎的な知識やスキルを身につける</li>
-  <li>関連する研究論文を読み、再現できるようになる</li>
-  <li>自分の研究テーマについて、その意義や分析方法を自分の言葉で説明・議論できる</li>
-  <li>卒業研究の成果を論文としてまとめる（さらに対外発表ができるようになる）</li>
-</ul>
+<h2 id="data"><span class="en">Data</span>扱うデータ</h2>
+
+実際の金融市場や企業に関するデータを分析します。数値のデータだけでなく、文章のデータも扱うことが特徴です。
+
+<div class="table-wrap">
+<table class="compare">
+  <thead><tr><th>データの種類</th><th>内容</th><th>分析の例</th></tr></thead>
+  <tbody>
+    <tr><th>株価・取引データ</th><td>株式の価格、取引量など</td><td>リスクの計測、リターンの予測</td></tr>
+    <tr><th>資産価格データ</th><td>債券、為替、暗号資産などの価格</td><td>市場間の関係、価格変動の分析</td></tr>
+    <tr><th>企業のデータ</th><td>財務情報など企業に関する情報</td><td>企業の特徴と株式リターンの関係</td></tr>
+    <tr><th>マクロ経済データ</th><td>景気、物価、金利などの経済指標</td><td>経済の動きと市場の関係</td></tr>
+    <tr><th>テキストデータ</th><td>ニュース記事、企業開示資料、SNSなど</td><td>文章の内容と株価の関係</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="research"><span class="en">Research Process</span>学ぶ内容③　研究の進め方</h2>
+
+知識を身につけるだけでなく、自分で研究を行い、その成果をまとめて発表するまでの一連の過程を経験します。研究は学術論文を出発点とし、仮説を立て、データに基づいて検証するという実証研究の進め方を重視しています。
+
+<ol class="steps">
+  <li><h3>論文を読む</h3><p>関連する研究論文を読み、これまでに何が分かっているのかを理解します。</p></li>
+  <li><h3>分析を再現する</h3><p>論文で行われている分析を、自分でデータとプログラムを使って再現します。手法を確実に身につけるための大切な段階です。</p></li>
+  <li><h3>問いを立てる</h3><p>自分の関心に基づいて研究テーマを決め、確かめたい仮説を立てます。</p></li>
+  <li><h3>データで検証する</h3><p>データを集めて分析し、仮説が支持されるかを検証します。結果の意味を自分の言葉で説明・議論できるようにします。</p></li>
+  <li><h3>論文にまとめる</h3><p>研究の目的、方法、結果を論文として文章にまとめます（卒業論文）。</p></li>
+  <li><h3>学外で発表する</h3><p>学会やデータ分析コンペティションなどで研究成果を発表し、学外の研究者や参加者と議論します。</p></li>
+</ol>
 
 <h3>関連する授業</h3>
 
@@ -100,7 +164,6 @@ has_contact: true
 <section class="band" id="results">
   <h2><span class="en">Student Research</span>ゼミ生の研究発表</h2>
   {% include student-pubs.html %}
-  <p class="muted">ゼミで学ぶ内容の詳細は<a href="{{ '/learning/' | relative_url }}">学べること</a>のページをご覧ください。</p>
 </section>
 
 <h2><span class="en">Graduate Track</span>大学院進学を希望する学生向けの活動</h2>

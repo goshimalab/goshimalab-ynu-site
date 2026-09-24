@@ -17,24 +17,24 @@ has_contact: true
 <h2><span class="en">What You Learn</span>学べること</h2>
 
 <div class="features">
-  <a class="feature feature-link" href="{{ '/learning/#finance' | relative_url }}">
+  <a class="feature feature-link" href="{{ '/seminar/#finance' | relative_url }}">
     <span class="feature-icon">{% include icon.html name="chart" %}</span>
     <h3>ファイナンス</h3>
     <p>投資のリスク、資産価格の予測、経済と金融市場の関係など、金融市場のしくみを実際のデータを使って学びます。</p>
   </a>
-  <a class="feature feature-link" href="{{ '/learning/#datascience' | relative_url }}">
+  <a class="feature feature-link" href="{{ '/seminar/#datascience' | relative_url }}">
     <span class="feature-icon">{% include icon.html name="ai" %}</span>
     <h3>データサイエンス</h3>
     <p>統計学、計量経済学、機械学習、自然言語処理を学び、Python で自分で分析できるようにします。</p>
   </a>
-  <a class="feature feature-link" href="{{ '/learning/#research' | relative_url }}">
+  <a class="feature feature-link" href="{{ '/seminar/#research' | relative_url }}">
     <span class="feature-icon">{% include icon.html name="paper" %}</span>
     <h3>研究の進め方</h3>
     <p>論文を読み、問いを立て、データで検証し、論文にまとめて学外で発表するまでを経験します。</p>
   </a>
 </div>
 
-<p><a href="{{ '/learning/' | relative_url }}">学べることの詳細 →</a></p>
+<p>詳しくは<a href="{{ '/seminar/' | relative_url }}">学部ゼミ</a>・<a href="{{ '/graduate/' | relative_url }}">大学院</a>のページをご覧ください。</p>
 
 <section class="band">
   <h2><span class="en">For Students</span>学生の方へ</h2>
