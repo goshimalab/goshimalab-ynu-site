@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}（横浜国立大学）</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta property="og:title" content="{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
+<body class="theme-{{ page.theme | default: 'navy' }}">
   {% include header.html %}
   {% if page.hero %}{% include hero.html %}{% endif %}
   <main class="container">
     {% unless page.hero %}
     <header class="page-header">
-      {% if page.breadcrumb %}<p class="breadcrumb">{{ page.breadcrumb }}</p>{% endif %}
+      {% if page.eyebrow %}<p class="page-eyebrow">{{ page.eyebrow }}</p>{% endif %}
       <h1>{{ page.title }}</h1>
     </header>
     {% endunless %}

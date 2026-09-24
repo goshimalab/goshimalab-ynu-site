@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 研究実績
+eyebrow: Publications
 ---
 
 このページでは、研究室の所属学生の研究成果を紹介しています。教員の個人発表については、[researchmap]({{ site.researchmap }})をご覧ください。

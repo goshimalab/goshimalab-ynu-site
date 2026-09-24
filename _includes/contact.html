@@ -1,5 +1,6 @@
-<div class="contact-box">
-  <p class="contact-title">{{ include.title | default: "問い合わせ先" }}</p>
+<section class="cta cta-{{ include.style | default: 'navy' }}" id="contact">
+  <h2>{{ include.title | default: "お問い合わせ" }}</h2>
   <p>{{ include.text }}</p>
-  <p class="contact-mail">{{ site.email }}</p>
-</div>
+  <p class="cta-mail">{{ site.email }}</p>
+  <p class="cta-note">※ [at] を @ に置き換えてください</p>
+</section>

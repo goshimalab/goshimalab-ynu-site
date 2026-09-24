@@ -1,9 +1,12 @@
-<footer class="site-footer">
+<footer class="site-footer"{% unless page.has_contact %} id="contact"{% endunless %}>
   <div class="container footer-inner">
     <div>
       <p class="footer-title">{{ site.title }}</p>
-      <p>横浜国立大学大学院 国際社会科学研究院</p>
+      <p>横浜国立大学大学院 国際社会科学研究院 / 経営学部</p>
       <p>Mail: {{ site.email }}</p>
+      <ul class="footer-nav">
+        {% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}
+      </ul>
     </div>
     <img class="footer-logo" src="{{ '/assets/img/ynu-logo.jpg' | relative_url }}" alt="横浜国立大学">
   </div>

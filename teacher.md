@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 教員紹介
+eyebrow: Faculty
 ---
 
 <div class="profile">

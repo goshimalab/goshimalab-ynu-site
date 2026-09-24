@@ -1,17 +1,10 @@
-# サイト上部のメニュー。children を書くとドロップダウンになります。
+# サイト上部のメニュー
 - title: ホーム
   url: /
-- title: 学生募集
-  url: /student/
-  children:
-    - title: 学部ゼミ
-      url: /student/seminar/
-    - title: 大学院
-      url: /student/lab/
-    - title: 修士課程（博士前期課程）
-      url: /student/lab/master/
-    - title: 博士後期課程
-      url: /student/lab/doctor/
+- title: 学部ゼミ
+  url: /seminar/
+- title: 大学院
+  url: /graduate/
 - title: 研究実績
   url: /publications/
 - title: 教員紹介

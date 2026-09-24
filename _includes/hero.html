@@ -1,7 +1,12 @@
-<section class="hero">
+<section class="hero hero-{{ page.hero_style | default: 'navy' }}{% if page.url == '/' %} hero-home{% endif %}">
   <div class="container">
-    <p class="hero-eyebrow">Finance × Data Science</p>
+    {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
     <h1 class="hero-title">{{ page.hero }}</h1>
-    <p class="hero-sub">横浜国立大学大学院 国際社会科学研究院 / 経営学部　五島研究室</p>
+    {% if page.hero_lead %}<p class="hero-lead">{{ page.hero_lead }}</p>{% endif %}
+    {% if page.hero_buttons %}
+    <div class="hero-buttons">
+      {% for b in page.hero_buttons %}<a class="btn btn-{{ b.style }}" href="{{ b.url | relative_url }}">{{ b.label }}</a>{% endfor %}
+    </div>
+    {% endif %}
   </div>
 </section>
