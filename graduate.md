@@ -58,11 +58,6 @@ has_contact: true
       <h3>研究経費</h3>
       <p>PC代・データ購入費・図書購入費・学会参加費・発表旅費・論文掲載料などは、研究室の予算で可能な限り負担します。</p>
     </div>
-    <div class="feature">
-      <span class="feature-icon">{% include icon.html name="moon" %}</span>
-      <h3>夜間・休日の連絡</h3>
-      <p>夜間や休日に研究に関する連絡は基本的にしません（学会開催中や締切直前は除く）。</p>
-    </div>
   </div>
 </section>
 
