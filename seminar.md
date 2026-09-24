@@ -51,6 +51,8 @@ has_contact: true
 
 <h2><span class="en">Topics</span>学ぶ内容</h2>
 
+各分野の内容は<a href="{{ '/learning/' | relative_url }}">学べること</a>のページで詳しく紹介しています。
+
 <div class="features">
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="chart" %}</span>
@@ -88,7 +90,7 @@ has_contact: true
 
 <h3>関連する授業</h3>
 
-教員が担当している次の授業は、ゼミの内容と関連しています。このほか、データサイエンス関連科目を履修するとゼミでの学習の理解が深まります。
+ゼミの内容と関連する授業の例です。このほか、データサイエンス関連科目を履修するとゼミでの学習の理解が深まります。
 
 - 統計学基礎
 - データサイエンス・ゼミナール
@@ -98,7 +100,7 @@ has_contact: true
 <section class="band" id="results">
   <h2><span class="en">Student Research</span>ゼミ生の研究発表</h2>
   {% include student-pubs.html %}
-  <p class="muted">研究室全体の研究については<a href="{{ '/research/' | relative_url }}">研究</a>のページをご覧ください。</p>
+  <p class="muted">ゼミで学ぶ内容の詳細は<a href="{{ '/learning/' | relative_url }}">学べること</a>のページをご覧ください。</p>
 </section>
 
 <h2><span class="en">Graduate Track</span>大学院進学を希望する学生向けの活動</h2>

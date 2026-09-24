@@ -1,11 +1,10 @@
 # トップページの News。新しいものを一番上に追加してください。
-# link は任意（サイト内なら /research/ のように書く）
+# link は任意（サイト内なら /learning/ のように書く）
 - date: "2025.02"
   text: 計算社会科学会大会（CSSJ2025）でゼミ生が研究発表を行いました
-  link: /research/#students
+  link: /learning/#students
 - date: "2025.01"
   text: スポーツデータサイエンスコンペティション（SDSC2024）でゼミ生が研究発表を行いました
-  link: /research/#students
+  link: /learning/#students
 - date: "2025"
   text: 企業金融研究奨励賞・優秀賞（みずほ証券寄附講座）を教員が受賞しました
-  link: /teacher/

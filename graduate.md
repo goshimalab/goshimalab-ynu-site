@@ -35,8 +35,8 @@ has_contact: true
   </div>
   <div class="feature">
     <span class="feature-icon">{% include icon.html name="award" %}</span>
-    <h3>指導教員の研究分野</h3>
-    <p>テキストデータ分析、機械学習の金融応用、市場の構造とリスク、気候変動とファイナンスなどを研究しています。詳しくは<a href="{{ '/research/' | relative_url }}">研究</a>と<a href="{{ '/teacher/' | relative_url }}">教員紹介</a>をご覧ください。</p>
+    <h3>研究テーマ</h3>
+    <p>ファイナンス×データサイエンスの範囲で、各自の関心に基づいて設定します。扱うテーマや手法の例は<a href="{{ '/learning/' | relative_url }}">学べること</a>をご覧ください。</p>
   </div>
 </div>
 

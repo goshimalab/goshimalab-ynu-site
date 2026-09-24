@@ -276,6 +276,8 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   gap: 20px;
   margin: 24px 0;
 }
+.features-3 { grid-template-columns: repeat(3, 1fr); }
+
 .feature {
   background: #fff;
   border: 1px solid var(--line);
@@ -299,6 +301,8 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .feature h3 { margin: 0 0 6px !important; font-size: 1.1rem; }
 .feature p { margin: 0; font-size: 0.95rem; color: #3a4650; }
 .feature ul { margin: 10px 0 0; font-size: 0.93rem; color: #3a4650; }
+.feature .example { margin-top: 12px; padding: 10px 14px; border-radius: 8px; background: var(--blue-light); font-size: 0.88rem; color: var(--navy); }
+.band .feature .example { background: var(--bg-soft); }
 
 /* ---------- Roadmap（学部） ---------- */
 .roadmap { list-style: none; padding: 0 !important; margin: 32px 0; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
@@ -448,21 +452,7 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .pub-list li { margin: 10px 0 !important; }
 .pub-title { font-weight: 500; }
 
-.profile {
-  display: grid;
-  gap: 4px;
-  padding: 28px 32px;
-  background: var(--bg-soft);
-  border-radius: var(--radius);
-  border: 1px solid var(--line);
-}
-.profile p { margin: 0; }
-.profile .name { font-size: 1.5rem; font-weight: 700; color: var(--navy); }
-.profile .name small { font-size: 0.9rem; color: var(--muted); font-weight: 400; margin-left: 8px; }
 
-.award-list { list-style: none; padding: 0 !important; }
-.award-list li { display: flex; gap: 20px; padding: 8px 0; margin: 0 !important; border-bottom: 1px dashed var(--line); }
-.award-list .year { flex: 0 0 8em; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -528,6 +518,5 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   .band { margin-top: 56px; padding-block: 48px; }
   .path { padding: 28px 24px 24px; }
   .course { padding: 24px 20px; }
-  .news-list li, .award-list li { flex-direction: column; gap: 0; }
-  .news-date { flex-basis: auto; }
+  .news-list li,   .news-date { flex-basis: auto; }
 }

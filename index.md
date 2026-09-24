@@ -14,32 +14,27 @@ has_contact: true
 
 経営学部での学部ゼミと、大学院（国際社会科学府・先進実践学環）での研究指導を行っています。
 
-<h2><span class="en">Research</span>研究テーマ</h2>
+<h2><span class="en">What You Learn</span>学べること</h2>
 
 <div class="features">
-  <a class="feature feature-link" href="{{ '/research/#text' | relative_url }}">
-    <span class="feature-icon">{% include icon.html name="text" %}</span>
-    <h3>テキストデータと金融市場</h3>
-    <p>ニュース記事や企業の開示資料を自然言語処理で分析し、市場や経済の動きとの関係を調べます。</p>
-  </a>
-  <a class="feature feature-link" href="{{ '/research/#ml' | relative_url }}">
-    <span class="feature-icon">{% include icon.html name="ai" %}</span>
-    <h3>機械学習の金融応用</h3>
-    <p>深層学習や説明可能な機械学習などの手法を、資産価格の予測や金融データの分析に応用します。</p>
-  </a>
-  <a class="feature feature-link" href="{{ '/research/#market' | relative_url }}">
+  <a class="feature feature-link" href="{{ '/learning/#finance' | relative_url }}">
     <span class="feature-icon">{% include icon.html name="chart" %}</span>
-    <h3>市場の構造とリスク</h3>
-    <p>株式市場の連動性、暗号資産市場のリスク、市場アノマリーなどを実証的に分析します。</p>
+    <h3>ファイナンス</h3>
+    <p>投資のリスク、資産価格の予測、経済と金融市場の関係など、金融市場のしくみを実際のデータを使って学びます。</p>
   </a>
-  <a class="feature feature-link" href="{{ '/research/#climate' | relative_url }}">
+  <a class="feature feature-link" href="{{ '/learning/#datascience' | relative_url }}">
+    <span class="feature-icon">{% include icon.html name="ai" %}</span>
+    <h3>データサイエンス</h3>
+    <p>統計学、計量経済学、機械学習、自然言語処理を学び、Python で自分で分析できるようにします。</p>
+  </a>
+  <a class="feature feature-link" href="{{ '/learning/#research' | relative_url }}">
     <span class="feature-icon">{% include icon.html name="paper" %}</span>
-    <h3>気候変動・ESGとファイナンス</h3>
-    <p>気候変動リスクや企業の環境への取り組みと、金融市場との関係を分析します。</p>
+    <h3>研究の進め方</h3>
+    <p>論文を読み、問いを立て、データで検証し、論文にまとめて学外で発表するまでを経験します。</p>
   </a>
 </div>
 
-<p><a href="{{ '/research/' | relative_url }}">研究の詳細と論文一覧 →</a></p>
+<p><a href="{{ '/learning/' | relative_url }}">学べることの詳細 →</a></p>
 
 <section class="band">
   <h2><span class="en">For Students</span>学生の方へ</h2>
@@ -81,7 +76,7 @@ has_contact: true
 <table class="compare info">
   <tbody>
     <tr><th>名称</th><td>横浜国立大学 五島研究室</td></tr>
-    <tr><th>教員</th><td><a href="{{ '/teacher/' | relative_url }}">五島 圭一</a>（大学院国際社会科学研究院 准教授）</td></tr>
+    <tr><th>教員</th><td>五島 圭一（大学院国際社会科学研究院 准教授）</td></tr>
     <tr><th>学部</th><td>経営学部（学部ゼミ）</td></tr>
     <tr><th>大学院</th><td>国際社会科学府（修士課程・博士後期課程）、先進実践学環（修士課程）</td></tr>
     <tr><th>研究分野</th><td>ファイナンス、データサイエンス、自然言語処理、機械学習</td></tr>
