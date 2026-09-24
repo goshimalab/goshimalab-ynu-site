@@ -537,3 +537,5 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   .course { padding: 24px 20px; }
   .news-list li,   .news-date { flex-basis: auto; }
 }
+
+.faq-cat { margin: 28px 0 8px !important; font-size: 1rem !important; color: var(--accent) !important; }
