@@ -2,7 +2,7 @@
 layout: default
 title: 教員紹介
 eyebrow: Faculty
-description: 五島研究室の教員（五島圭一）の経歴・受賞歴・担当授業を紹介します。
+description: 五島研究室の教員（五島圭一）を紹介します。
 ---
 
 <div class="profile">
