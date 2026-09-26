@@ -2,7 +2,7 @@
   <div class="container footer-inner">
     <div>
       <p class="footer-title">{{ site.title }}</p>
-      <p>横浜国立大学大学院 国際社会科学研究院 / 経営学部</p>
+      <p>{% if page.lang == "en" %}Faculty of International Social Sciences / College of Business Administration, Yokohama National University{% else %}横浜国立大学大学院 国際社会科学研究院 / 経営学部{% endif %}</p>
       <p>Mail: {{ site.email }}</p>
       <ul class="footer-nav">
         {% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}

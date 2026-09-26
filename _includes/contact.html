@@ -2,5 +2,5 @@
   <h2>{{ include.title | default: "連絡先" }}</h2>
   {% if include.text %}<p>{{ include.text }}</p>{% endif %}
   <p class="contact-mail">{{ site.email }}</p>
-  <p class="muted">[at] を @ に置き換えてください。</p>
+  <p class="muted">{% if page.lang == "en" %}Please replace [at] with @.{% else %}[at] を @ に置き換えてください。{% endif %}</p>
 </section>

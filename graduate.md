@@ -13,6 +13,9 @@ hero_buttons:
   - label: 出願までの流れ
     url: /graduate/#flow
     style: ghost
+  - label: English
+    url: /en/graduate/
+    style: ghost
 description: 横浜国立大学大学院・五島研究室（修士課程・博士後期課程）の案内です。
 has_contact: true
 ---
@@ -206,6 +209,8 @@ has_contact: true
 <h2><span class="en">International Students</span>外国人留学生の方へ</h2>
 
 大学院のコースワークは日本語で実施されるため、当研究室への配属を希望する外国人留学生には、入試の段階で日本語能力試験（JLPT）N1相当の日本語能力を求めています。
+
+<p>English: <a href="{{ '/en/graduate/' | relative_url }}">Information for Prospective International Students</a></p>
 
 <h2 id="faq"><span class="en">FAQ</span>よくある質問</h2>
 
