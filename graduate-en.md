@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Graduate School (English)
+title: Graduate School
 lang: en
 permalink: /en/graduate/
 hero_style: navy

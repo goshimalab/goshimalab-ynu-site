@@ -5,10 +5,11 @@
       <p>{% if page.lang == "en" %}Faculty of International Social Sciences / College of Business Administration, Yokohama National University{% else %}横浜国立大学大学院 国際社会科学研究院 / 経営学部{% endif %}</p>
       <p>Mail: {{ site.email }}</p>
       <ul class="footer-nav">
-        {% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}
+        {% if page.lang == "en" %}{% assign nav = site.data.navigation_en %}{% else %}{% assign nav = site.data.navigation %}{% endif %}
+        {% for item in nav %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}
       </ul>
     </div>
-    <img class="footer-logo" src="{{ '/assets/img/ynu-logo.jpg' | relative_url }}" alt="横浜国立大学">
+    <img class="footer-logo" src="{{ '/assets/img/ynu-logo.jpg' | relative_url }}" alt="{% if page.lang == "en" %}Yokohama National University{% else %}横浜国立大学{% endif %}">
   </div>
   <p class="container copyright">&copy; {{ site.time | date: "%Y" }} Goshima Lab, Yokohama National University</p>
 </footer>

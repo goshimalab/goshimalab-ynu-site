@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}（横浜国立大学）</title>
+  {% if page.lang == "en" %}<title>{% if page.title and page.url != "/en/" %}{{ page.title }} | {% endif %}{{ site.title_en }}, Yokohama National University</title>
+  {% else %}<title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}（横浜国立大学）</title>{% endif %}
   <meta name="description" content="{{ page.description | default: site.description }}">
-  <meta property="og:title" content="{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta property="og:title" content="{% if page.lang == "en" %}{% if page.title and page.url != "/en/" %}{{ page.title }} | {% endif %}{{ site.title_en }}{% else %}{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">

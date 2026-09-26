@@ -1,4 +1,4 @@
-<section class="hero hero-{{ page.hero_style | default: 'navy' }}{% if page.url == '/' %} hero-home{% endif %}">
+<section class="hero hero-{{ page.hero_style | default: 'navy' }}{% if page.url == '/' or page.url == '/en/' %} hero-home{% endif %}">
   <div class="container">
     {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
     <h1 class="hero-title">{{ page.hero }}</h1>
