@@ -61,6 +61,7 @@ has_contact: true
       <span class="path-more">大学院の案内 {% include icon.html name="arrow" %}</span>
     </a>
   </div>
+  <p>For prospective international students: <a href="{{ '/en/graduate/' | relative_url }}">Graduate School (English)</a></p>
 </section>
 
 <h2><span class="en">News</span>お知らせ</h2>
