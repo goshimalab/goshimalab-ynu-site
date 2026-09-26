@@ -48,7 +48,7 @@ has_contact: true
   <a class="feature feature-link" href="{{ '/seminar/#finance' | relative_url }}">
     <span class="feature-icon">{% include icon.html name="chart" %}</span>
     <h3>ファイナンス</h3>
-    <p>投資のリスク、資産価格の予測、経済と金融市場の関係など、金融市場のしくみを実際のデータを使って学びます。</p>
+    <p>投資のリスク、資産価格の予測、気候変動と金融市場の関係など、金融市場のしくみを実際のデータを使って学びます。</p>
   </a>
   <a class="feature feature-link" href="{{ '/seminar/#datascience' | relative_url }}">
     <span class="feature-icon">{% include icon.html name="ai" %}</span>
