@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container header-inner">
-    {% if page.lang == "en" %}{% assign nav = site.data.navigation_en %}{% assign home = "/en/" %}{% else %}{% assign nav = site.data.navigation %}{% assign home = "/" %}{% endif %}
+    {% if page.lang == "en" %}{% assign nav = site.data.navigation_en %}{% assign home = "/en/graduate/" %}{% else %}{% assign nav = site.data.navigation %}{% assign home = "/" %}{% endif %}
     <a class="brand" href="{{ home | relative_url }}">
       <span class="brand-ja">{{ site.title }}</span>
       <span class="brand-en">{{ site.title_en }} · Yokohama National University</span>
@@ -10,7 +10,7 @@
     <nav class="site-nav" aria-label="メインメニュー">
       <ul>
         {% for item in nav %}
-        {% assign active = false %}{% if item.url == "/" or item.url == "/en/" %}{% if page.url == item.url %}{% assign active = true %}{% endif %}{% elsif page.url contains item.url %}{% assign active = true %}{% endif %}
+        {% assign active = false %}{% if item.url == "/" %}{% if page.url == item.url %}{% assign active = true %}{% endif %}{% elsif page.url contains item.url %}{% assign active = true %}{% endif %}
         <li{% if active %} class="active"{% endif %}><a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
         {% endfor %}
         <li class="nav-cta"><a href="#contact">{% if page.lang == "en" %}Contact{% else %}お問い合わせ{% endif %}</a></li>

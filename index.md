@@ -14,6 +14,40 @@ has_contact: true
 
 経営学部での学部ゼミと、大学院（国際社会科学府・先進実践学環）での研究指導を行っています。
 
+<h2 id="research"><span class="en">Research</span>研究内容</h2>
+
+計量経済学・統計学と、自然言語処理・機械学習などの計算機科学の手法を組み合わせ、金融市場や経済に関する実証研究を行っています。主な研究テーマは次のとおりです。
+
+<div class="features">
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="text" %}</span>
+    <h3>テキストデータと金融市場</h3>
+    <p>ニュース記事や有価証券報告書などのテキストを自然言語処理で分析し、株価や企業業績との関係を明らかにします。深層学習によるニュースの評判分析、株価情報を用いた金融極性辞書の構築、ニュースによる株式リターンの予測、経営者による将来見通しの開示と将来業績の関係などに取り組んできました。</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="chart" %}</span>
+    <h3>マクロ経済と金融政策</h3>
+    <p>ニュースから景況感を測る指数や景気単語極性辞書を構築し、インフレ率やボラティリティの予測に応用しています。また、金融政策の公表に対する外国為替市場のアルゴリズム取引の反応や、国債市場のニュースから測ったボラティリティと景気の関係を分析しています。</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="leaf" %}</span>
+    <h3>気候変動・ESGと金融市場</h3>
+    <p>東京株式市場におけるカーボンプレミアムの検証、Double Machine Learning を用いた CO2 排出量と企業パフォーマンスの関係の分析、CSR 活動に関するニュースが株価に与える影響の分析などを行っています。現在は、金融市場における気候変動リスクの計測に取り組んでいます。</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="pulse" %}</span>
+    <h3>市場のリスクと構造</h3>
+    <p>暗号資産市場の暴落（メルトダウン）リスクとその分散、国際株式市場間の連動性の長期的な変遷、高頻度取引業者（HFT）と他の投資家の相互作用などを分析しています。</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">{% include icon.html name="ai" %}</span>
+    <h3>金融データからの文章生成</h3>
+    <p>時系列の株価データから市況コメントを自動生成する研究を、自然言語処理の研究者と共同で行ってきました。成果は自然言語処理の国際会議などで発表しています。</p>
+  </div>
+</div>
+
+<p>研究業績の一覧は <a href="https://researchmap.jp/keiichi-goshima">researchmap</a> をご覧ください。</p>
+
 <h2><span class="en">What You Learn</span>学べること</h2>
 
 <div class="features">
