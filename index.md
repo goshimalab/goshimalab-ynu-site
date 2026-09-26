@@ -5,6 +5,10 @@ permalink: /
 eyebrow: Finance × Data Science
 hero: '<span>金融市場を、</span><span>データで読み解く。</span>'
 hero_lead: 横浜国立大学 五島研究室は、ファイナンスとデータサイエンスを組み合わせた実証研究を行う研究室です。
+hero_buttons:
+  - label: English – For International Students
+    url: /en/graduate/
+    style: ghost
 has_contact: true
 ---
 
@@ -85,7 +89,7 @@ has_contact: true
       <span class="path-more">大学院の案内 {% include icon.html name="arrow" %}</span>
     </a>
   </div>
-  <p>For prospective international students: <a href="{{ '/en/graduate/' | relative_url }}">Graduate School (English)</a></p>
+  <p><a class="btn btn-navy" href="{{ '/en/graduate/' | relative_url }}" lang="en">International Students: Graduate School in English {% include icon.html name="arrow" %}</a></p>
 </section>
 
 <h2><span class="en">News</span>お知らせ</h2>
