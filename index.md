@@ -62,7 +62,7 @@ has_contact: true
   </a>
 </div>
 
-<p>詳しくは<a href="{{ '/seminar/' | relative_url }}">学部ゼミ</a>・<a href="{{ '/graduate/' | relative_url }}">大学院</a>のページをご覧ください。</p>
+<p>詳しくは<a href="{{ '/seminar/' | relative_url }}">学部ゼミ</a>・<a href="{{ '/graduate/' | relative_url }}">大学院</a>のページをご覧ください。ファイナンスがどのような学問かは「<a href="{{ '/finance/' | relative_url }}">ファイナンスとは</a>」で紹介しています。</p>
 
 <section class="band">
   <h2><span class="en">For Students</span>学生の方へ</h2>
