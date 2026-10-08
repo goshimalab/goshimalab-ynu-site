@@ -10,6 +10,9 @@ hero_buttons:
   - label: 連携メニュー
     url: /industry/#menu
     style: white
+  - label: 費用の目安
+    url: /industry/#cost
+    style: ghost
   - label: 進め方
     url: /industry/#flow
     style: ghost
@@ -66,7 +69,30 @@ has_contact: true
 
 <ul class="notes">
   <li>共同研究・受託研究・学術指導・寄附金は、いずれも大学の制度に基づく正式な手続きが必要です。制度の概要は横浜国立大学 研究推進機構のページ（<a href="https://www.ripo.ynu.ac.jp/company/contact/research/">共同研究</a>、<a href="https://www.ripo.ynu.ac.jp/company/contact/trustee/">受託研究</a>、<a href="https://www.ripo.ynu.ac.jp/company/contact/guidance/">学術指導</a>、<a href="https://www.ripo.ynu.ac.jp/company/contact/application/">寄附金・寄附講座</a>）をご覧ください。</li>
-  <li>経費や謝金の金額は、内容・規模・期間によって異なります。ご相談の際にお見積りをご案内します。</li>
+  <li>費用は内容・規模・期間によって異なります。おおよその目安は<a href="#cost">費用の目安</a>をご覧ください。</li>
+</ul>
+
+<h2 id="cost"><span class="en">Cost</span>費用の目安</h2>
+
+費用は、分析の内容・規模・期間や、必要なデータの購入費などによって異なります。以下はご検討の際の目安です。ご相談の内容をお伺いしたうえで、正式なお見積りをお示しします。
+
+<div class="table-wrap">
+<table class="compare">
+  <thead><tr><th>枠組み</th><th>費用の目安</th></tr></thead>
+  <tbody>
+    <tr><th>共同研究<br>受託研究</th><td>年額50万〜200万円程度（直接経費）。これに加えて、大学の規定により直接経費の30%の間接経費が必要です。企業等から研究員を派遣される場合は、1人につき年額40万円（税抜）の研究料がかかります。</td></tr>
+    <tr><th>学術指導<br>技術相談</th><td>月額10万円程度から。期間と打合せの頻度に応じて設定します。</td></tr>
+    <tr><th>顧問<br>社外委員</th><td>月額5万円程度から。関与の頻度と範囲に応じてご相談します。</td></tr>
+    <tr><th>講演<br>社内研修</th><td>90分程度の講演で1回10万円程度から。研修の回数や資料作成の範囲に応じて調整します。</td></tr>
+    <tr><th>取材<br>原稿執筆</th><td>内容と工数に応じてご相談ください。</td></tr>
+    <tr><th>寄附金<br>寄附講座</th><td>金額は任意です。使途のご希望とあわせてご相談ください。</td></tr>
+  </tbody>
+</table>
+</div>
+
+<ul class="notes">
+  <li>上記は目安であり、金額を確約するものではありません。消費税や旅費の取り扱いを含む正式な金額は、お見積りでご案内します。</li>
+  <li>ご予算の制約がある場合は、その範囲でできることをご提案しますので、遠慮なくお知らせください。</li>
 </ul>
 
 <section class="band" id="flow">
