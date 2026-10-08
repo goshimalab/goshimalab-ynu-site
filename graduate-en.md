@@ -230,7 +230,7 @@ This section summarizes points in the application guidelines that international 
 
 <h3 id="inquiry">How to contact us</h3>
 
-Before applying, you are welcome to contact us about your research topic and plan. Your first email may be written in English, but **preliminary meetings are held in Japanese**. Please attach the following to your email:
+Before applying, you are welcome to contact us about the direction of your research topic. Your first email may be written in English, but **preliminary meetings are held in Japanese**. Please attach the following to your email (these are used only to discuss your fit with the lab; **we do not review or proofread research plans or other application documents**):
 
 <ul class="checklist">
   <li>CV (educational background and work experience)</li>
@@ -260,6 +260,7 @@ Before applying, you are welcome to contact us about your research topic and pla
 <details><summary>Is there a special examination for international students?</summary><div><p>Only for Japanese Government (MEXT) scholarship students and students sponsored by a foreign government. Privately funded international students take the general examination. See <a href="#international">Notes for International Applicants</a>.</p></div></details>
 <details><summary>Can I take the entrance examination online or from abroad?</summary><div><p>The guidelines specify the Tokiwadai Campus in Yokohama as the examination venue, so please plan to come to Japan for the examinations. Check the latest guidelines for any changes.</p></div></details>
 <details><summary>Can I write my research plan in English?</summary><div><p>The research plan must be written in Japanese (up to 2,500 characters). If this is difficult, you may additionally attach an English version (up to 800 words).</p></div></details>
+<details><summary>Can you review or proofread my research plan?</summary><div><p>No. To keep the admissions process fair, we do not review, proofread, or pre-check research plans or any other application documents. We are happy to discuss the direction of your research topic and its fit with the lab in a preliminary meeting.</p></div></details>
 <details><summary>My bachelor's degree took three years. Can I apply?</summary><div><p>You need to pass the individual eligibility screening before applying. For April 2027 enrollment, the documents must arrive between June 22 and 24, 2026, which is well before the application period.</p></div></details>
 <details><summary>Can I enroll in October?</summary><div><p>The master's program admits students in April. The doctoral program may also offer October enrollment (for example, October 2026 enrollment in the second round). Check the guidelines of each year.</p></div></details>
 <details><summary>Whom should I ask about application documents or visas?</summary><div><p>Please contact the Graduate School Affairs Office (int.gakumu-all@ynu.ac.jp). Questions about research topics and supervision are welcome at the lab's email address below.</p></div></details>
@@ -271,4 +272,4 @@ Before applying, you are welcome to contact us about your research topic and pla
 <details><summary>Can you host JSPS Postdoctoral Fellows or JSPS International Research Fellows?</summary><div><p>Yes. Application documents need to be prepared by the host, so please contact us well in advance.</p></div></details>
 </div>
 
-{% include contact.html title="Preliminary Consultation (Online Available)" text="For consultation on your research topic or plan, or questions about the program, please contact us at the email address below. Emails may be written in English; please attach your CV, an outline of your research plan, and a brief description of your Japanese proficiency. Meetings are held in Japanese." %}
+{% include contact.html title="Preliminary Consultation (Online Available)" text="For consultation on the direction of your research topic, or questions about the program, please contact us at the email address below (note that we do not proofread research plans or application documents). Emails may be written in English; please attach your CV, an outline of your research plan, and a brief description of your Japanese proficiency. Meetings are held in Japanese." %}
