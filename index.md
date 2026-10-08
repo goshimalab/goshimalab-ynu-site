@@ -92,6 +92,12 @@ has_contact: true
   <p><a class="btn btn-navy" href="{{ '/en/graduate/' | relative_url }}" lang="en">International Students: Graduate School in English {% include icon.html name="arrow" %}</a></p>
 </section>
 
+<h2 id="industry"><span class="en">For Companies</span>企業の方へ</h2>
+
+企業・金融機関・官公庁の皆さまからの、共同研究・受託研究、学術指導、顧問・社外委員、講演・社内研修などのご相談を承っています。連携の枠組みやご相談の流れは「<a href="{{ '/industry/' | relative_url }}">企業の方へ</a>」のページをご覧ください。
+
+<p><a class="btn btn-navy" href="{{ '/industry/' | relative_url }}">企業の方へのご案内 {% include icon.html name="arrow" %}</a></p>
+
 <h2><span class="en">News</span>お知らせ</h2>
 
 <ul class="news-list">
@@ -115,4 +121,4 @@ has_contact: true
 </table>
 </div>
 
-{% include contact.html text="共同研究・取材・講演のご相談や、ゼミ・大学院進学に関するご質問は、下記のメールアドレスまでご連絡ください。" %}
+{% include contact.html text="共同研究・取材・講演のご相談（詳しくは「企業の方へ」をご覧ください）や、ゼミ・大学院進学に関するご質問は、下記のメールアドレスまでご連絡ください。" %}
