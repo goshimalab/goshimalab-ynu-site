@@ -544,6 +544,11 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
 .compare.admission th:nth-child(1) { width: 8.5em; }
 .compare.admission th:nth-child(2) { width: 36%; }
 .compare.admission th:nth-child(3) { width: 30%; }
+.compare.programs { min-width: 720px; font-size: 0.93rem; table-layout: fixed; }
+.compare.programs tbody th { white-space: normal; }
+.compare.programs th:nth-child(1) { width: 15em; }
+.compare.programs th:nth-child(2) { width: 28%; }
+.compare.programs th:nth-child(3) { width: 18%; }
 /* 英語ページ：見出しセルの英単語が枠からはみ出さないよう折り返しを許可し、1列目を広げる */
 :lang(en) .compare tbody th { white-space: normal; }
 :lang(en) .compare.admission th:nth-child(1) { width: 11em; }
