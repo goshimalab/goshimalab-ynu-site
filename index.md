@@ -89,6 +89,7 @@ has_contact: true
       <span class="path-more">大学院の案内 {% include icon.html name="arrow" %}</span>
     </a>
   </div>
+  <p><a class="btn btn-navy" href="{{ '/professional/' | relative_url }}">社会人の方へ：働きながら博士号を目指す {% include icon.html name="arrow" %}</a></p>
   <p><a class="btn btn-navy" href="{{ '/en/graduate/' | relative_url }}" lang="en">International Students: Graduate School in English {% include icon.html name="arrow" %}</a></p>
 </section>
 

@@ -1,12 +1,21 @@
-# サイト上部のメニュー
+# サイト上部のメニュー（フッターのリンク一覧にも使われます）
+#
+# - title / url を並べた順にメニューへ表示されます。
+# - children: を付けると、PC ではドロップダウン、スマホでは字下げした
+#   子項目として表示されます（親の url はそのまま押せます）。
 - title: ホーム
   url: /
+- title: ファイナンスとは
+  url: /finance/
 - title: 学部ゼミ
   url: /seminar/
 - title: 大学院
   url: /graduate/
-- title: 社会人の方へ
-  url: /professional/
+  children:
+    - title: 大学院の案内
+      url: /graduate/
+    - title: 社会人の方へ
+      url: /professional/
 - title: 教員紹介
   url: /teacher/
 - title: 企業の方へ
