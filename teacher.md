@@ -1,8 +1,23 @@
 ---
 layout: default
 title: 教員紹介
+permalink: /teacher/
+hero_style: navy
 eyebrow: Faculty
+hero: '<span>教員紹介</span>'
+hero_lead: 五島研究室の教員・五島圭一の略歴と、受賞歴・研究助成・担当授業です。
+hero_buttons:
+  - label: 受賞歴
+    url: /teacher/#awards
+    style: white
+  - label: 研究助成
+    url: /teacher/#grants
+    style: ghost
+  - label: 担当授業
+    url: /teacher/#teaching
+    style: ghost
 description: 五島研究室の教員（五島圭一）を紹介します。
+has_contact: true
 ---
 
 <div class="profile">
@@ -13,7 +28,7 @@ description: 五島研究室の教員（五島圭一）を紹介します。
   <p>日本銀行金融研究所、早稲田大学、三菱UFJ銀行等を経て、2023年より現職。</p>
 </div>
 
-<h2><span class="en">Awards</span>受賞歴</h2>
+<h2 id="awards"><span class="en">Awards</span>受賞歴</h2>
 
 <ul class="award-list">
   <li><span class="year">2025年</span><span>2024年度企業金融研究奨励賞（みずほ証券寄附講座）・優秀賞（京都大学経営管理大学院）</span></li>
@@ -23,7 +38,7 @@ description: 五島研究室の教員（五島圭一）を紹介します。
   <li><span class="year">2016年</span><span>2015年度証券アナリストジャーナル賞（日本証券アナリスト協会）</span></li>
 </ul>
 
-<h2><span class="en">Grants</span>研究助成</h2>
+<h2 id="grants"><span class="en">Grants</span>研究助成</h2>
 
 <ul class="award-list">
   <li><span class="year">2024–2026年</span><span>金融市場における気候変動リスク計測に関する研究（科研費 若手研究・代表）</span></li>
@@ -32,10 +47,12 @@ description: 五島研究室の教員（五島圭一）を紹介します。
   <li><span class="year">2019–2021年</span><span>オルタナティブ・データを利用した資産運用の高度化に関する研究（科研費 研究活動スタート支援・代表）</span></li>
 </ul>
 
-<h2><span class="en">Teaching</span>担当授業（横浜国立大学）</h2>
+<h2 id="teaching"><span class="en">Teaching</span>担当授業（横浜国立大学）</h2>
 
 <ul class="award-list">
   <li><span class="year">学部</span><span>統計学基礎／データサイエンス・ゼミナール／銀行論／経営学研究のためのテキストデータ分析</span></li>
   <li><span class="year">大学院</span><span>計量分析特論</span></li>
   <li><span class="year">ビジネススクール</span><span>ビジネス統計学</span></li>
 </ul>
+
+{% include contact.html text="研究内容や講演・取材のご相談、ゼミ・大学院進学に関するご質問は、下記のメールアドレスまでご連絡ください。" %}
