@@ -206,6 +206,25 @@ has_contact: true
   <p><strong>博士後期課程は指導教員とのマッチング（研究テーマや指導方針）が重要なため、事前面談を強くお勧めします。</strong></p>
 </div>
 
+<h2 id="cost"><span class="en">Tuition &amp; Fees</span>学費と経済的支援</h2>
+
+国立大学のため、私立大学の大学院と比べて学費を抑えて進学できます。修士課程・博士後期課程とも、学費は次のとおりです。
+
+<div class="table-wrap">
+<table class="compare info">
+  <tbody>
+    <tr><th>入学料</th><td>282,000円（入学時のみ）</td></tr>
+    <tr><th>授業料</th><td>年額 535,800円（春学期・秋学期に 267,900円ずつ納付）</td></tr>
+    <tr><th>修士課程2年間の合計</th><td>1,353,600円（入学料＋授業料2年分）</td></tr>
+    <tr><th>入学検定料</th><td>30,000円（国際社会科学府 経営学専攻の一般入試）</td></tr>
+  </tbody>
+</table>
+</div>
+
+経済的な理由で納付が難しい方には、選考の上で入学料・授業料を免除または徴収猶予する制度があります。このほか、日本学生支援機構（JASSO）などの奨学金や、TA・RA（<a href="#faq">よくある質問</a>を参照）による経済的支援も利用できます。
+
+<p class="muted">金額は改定される場合があり、在学中に授業料が改定された場合は新しい授業料が適用されます。出典：<a href="https://www.ynu.ac.jp/campus/expense/payments.html">横浜国立大学 入学料・授業料</a>、<a href="https://www.gakuseisupport.ynu.ac.jp/expense/folder2/">大学院生の入学料・授業料免除</a>（2026年10月確認）</p>
+
 <h2><span class="en">International Students</span>外国人留学生の方へ</h2>
 
 大学院のコースワークは日本語で実施されるため、当研究室への配属を希望する外国人留学生には、入試の段階で日本語能力試験（JLPT）N1相当の日本語能力を求めています。

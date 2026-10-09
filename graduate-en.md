@@ -218,7 +218,7 @@ This section summarizes points in the application guidelines that international 
     <tr><th>Submitting documents from abroad</th><td>After applying online (<a href="https://e-apply.jp/e/ynu/">YNU web application system</a>), send the documents by EMS or another trackable method. Documents from abroad must <strong>arrive</strong> by the deadline (July 23, 2026). The application fee (30,000 yen) can be paid by credit card or UnionPay by overseas applicants.</td></tr>
     <tr><th>Graduates of Chinese universities</th><td>If original certificates are difficult to submit, you may submit copies together with the English <em>Online Verification Report of Higher Education Qualification Certificate</em> issued by CHSI. The report must be sent <strong>directly from CSSD</strong> to the Graduate School Affairs Office by the last day of the application period; reports forwarded by the applicant are not accepted.</td></tr>
     <tr><th>Residence status</th><td>Submit a copy of your residence card, or a copy of your passport if you do not live in Japan. To obtain a "Student" visa, privately funded students must have sufficient financial means to support their studies.</td></tr>
-    <tr><th>Costs</th><td>Entrance fee 282,000 yen; tuition 535,800 yen per year (current amounts, subject to revision).</td></tr>
+    <tr><th>Costs</th><td>Entrance fee 282,000 yen; tuition 535,800 yen per year. See <a href="#cost">Tuition and Financial Support</a>.</td></tr>
   </tbody>
 </table>
 </div>
@@ -251,6 +251,25 @@ Before applying, you are welcome to contact us about the direction of your resea
   <p>Publication in a peer-reviewed journal is required to obtain a doctoral degree. Toward publication, research proceeds through individual meetings adapted to each student's circumstances and pace (with online meetings for working professionals). With a view to future academic careers, regular presentations at conferences and workshops are required. The degree awarded is a Doctor of Philosophy in Business Administration or a Doctor of Philosophy.</p>
   <p><strong>For the doctoral program, matching with the supervisor (research topic and supervision style) is essential, so a preliminary meeting is strongly recommended.</strong></p>
 </div>
+
+<h2 id="cost"><span class="en">Tuition &amp; Fees</span>Tuition and Financial Support</h2>
+
+As a national university, YNU offers graduate study at a lower cost than most private universities in Japan. The fees are the same for the master's and doctoral programs.
+
+<div class="table-wrap">
+<table class="compare info">
+  <tbody>
+    <tr><th>Application fee</th><td>30,000 yen (Department of Business Administration, general examination)</td></tr>
+    <tr><th>Entrance fee</th><td>282,000 yen (paid once at enrollment)</td></tr>
+    <tr><th>Tuition</th><td>535,800 yen per year (267,900 yen each for the spring and fall semesters)</td></tr>
+    <tr><th>Total for a two-year master's program</th><td>1,353,600 yen (entrance fee + two years of tuition)</td></tr>
+  </tbody>
+</table>
+</div>
+
+YNU has a tuition exemption program for privately funded international graduate students, selected based on entrance examination results. In the master's program, the top 10% receive a full exemption, the next 20% a half exemption, and the next 20% a 30% exemption. Scholarships are also available, including the Japanese Government (MEXT) Scholarship, YNU's own scholarships, and the JASSO Monbukagakusho Honors Scholarship for Privately-Financed International Students. TA and RA positions are another source of support (see the <a href="#faq">FAQ</a>).
+
+<p class="muted">Amounts are subject to revision; if tuition is revised during your enrollment, the new amount applies. Sources: <a href="https://www.ynu.ac.jp/campus/expense/payments.html">YNU Entrance Fee and Tuition</a> (Japanese), <a href="https://www.whystudyat.ynu.ac.jp/international/expenses/index.html">Why Study at YNU? – Expenses</a> (checked October 2026)</p>
 
 <h2 id="faq"><span class="en">FAQ</span>Frequently Asked Questions</h2>
 
