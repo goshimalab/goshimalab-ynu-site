@@ -20,3 +20,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - "WEB用（RGB）_JPEGデータ"

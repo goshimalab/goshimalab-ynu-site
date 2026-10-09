@@ -2,8 +2,11 @@
   <div class="container header-inner">
     {% if page.lang == "en" %}{% assign nav = site.data.navigation_en %}{% assign home = "/en/graduate/" %}{% else %}{% assign nav = site.data.navigation %}{% assign home = "/" %}{% endif %}
     <a class="brand" href="{{ home | relative_url }}">
+      <img class="brand-mark" src="{{ '/assets/img/ynu-symbol.png' | relative_url }}" alt="" width="50" height="48">
+      <span class="brand-text">
       <span class="brand-ja">{{ site.title }}</span>
       <span class="brand-en">{{ site.title_en }} · Yokohama National University</span>
+      </span>
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="メニューを開く">
     <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true"><span></span></label>

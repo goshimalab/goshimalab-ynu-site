@@ -9,7 +9,7 @@
         {% for item in nav %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}
       </ul>
     </div>
-    <img class="footer-logo" src="{{ '/assets/img/ynu-logo.jpg' | relative_url }}" alt="{% if page.lang == "en" %}Yokohama National University{% else %}横浜国立大学{% endif %}">
+    <img class="footer-logo" src="{% if page.lang == "en" %}{{ '/assets/img/ynu-logo-en.jpg' | relative_url }}{% else %}{{ '/assets/img/ynu-logo.jpg' | relative_url }}{% endif %}" alt="{% if page.lang == "en" %}Yokohama National University{% else %}横浜国立大学{% endif %}">
   </div>
   <p class="container copyright">&copy; {{ site.time | date: "%Y" }} Goshima Lab, Yokohama National University</p>
 </footer>
