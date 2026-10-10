@@ -28,7 +28,7 @@ assets/img/             ロゴ・favicon
 | ページ | ファイル | URL | メニュー |
 |---|---|---|---|
 | ホーム | `index.md` | `/` | ホーム |
-| ファイナンスとは | `finance.md` | `/finance/` | ファイナンスとは |
+| ファイナンスとは | `finance.md` | `/finance/` | （メニューなし・本文リンクから） |
 | 学部ゼミ | `seminar.md` | `/seminar/` | 学部ゼミ |
 | 大学院 | `graduate.md` | `/graduate/` | 大学院 |
 | 社会人の方へ | `professional.md` | `/professional/` | 大学院 ＞ 社会人の方へ |

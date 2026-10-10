@@ -5,8 +5,6 @@
 #   子項目として表示されます（親の url はそのまま押せます）。
 - title: ホーム
   url: /
-- title: ファイナンスとは
-  url: /finance/
 - title: 学部ゼミ
   url: /seminar/
 - title: 大学院
