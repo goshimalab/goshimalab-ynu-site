@@ -33,6 +33,11 @@ The Goshima Lab welcomes students who are eager to conduct research in **Finance
   <p>Coursework in the graduate programs is conducted in <strong>Japanese</strong>. International students who wish to join this lab are therefore required to have Japanese proficiency equivalent to <strong>JLPT N1</strong> at the time of the entrance examination. What matters is your actual proficiency; a JLPT certificate itself is not required.</p>
 </div>
 
+<div class="callout">
+  <p class="callout-title">We do not proofread application documents</p>
+  <p>To keep the admissions process fair, we <strong>do not review, proofread, or pre-check research plans or any other application documents</strong>. We are happy to discuss the direction of your research topic and its fit with the lab in a preliminary meeting.</p>
+</div>
+
 <h2><span class="en">Research Training</span>Research Supervision</h2>
 
 <div class="features">
@@ -127,7 +132,7 @@ Your previous faculty or graduate school does not matter, but the following are 
 <h2 id="flow"><span class="en">Application</span>How to Apply</h2>
 
 <ol class="steps">
-  <li><h3>Preliminary consultation</h3><p>A meeting (online is available) can be arranged to discuss your research topic, research plan, or questions about the program. For the doctoral program, matching with the supervisor (research topic and supervision style) is essential, so a preliminary meeting is strongly recommended. International applicants, please see <a href="#inquiry">how to contact us</a>.</p></li>
+  <li><h3>Preliminary consultation</h3><p>A meeting (online is available) can be arranged to discuss your research topic, research plan, or questions about the program. However, to keep the admissions process fair, <strong>we do not review or proofread research plans or other application documents</strong>. For the doctoral program, matching with the supervisor (research topic and supervision style) is essential, so a preliminary meeting is strongly recommended. International applicants, please see <a href="#inquiry">how to contact us</a>.</p></li>
   <li><h3>Research topic</h3><p>You are expected to have a general direction for your research topic before entering the program. Since the master's program lasts only two years, having a topic in mind beforehand will make your research go more smoothly.</p></li>
   <li><h3>English test scores</h3><p>Official TOEFL-iBT or TOEIC Listening &amp; Reading scores are required for the general examinations with written tests, the working professionals examination of the Graduate School of International Social Sciences, and the doctoral program examination. Please take the test early enough.</p></li>
   <li><h3>Application and examination</h3><p>Choose the program and the examination type, and apply according to the official application guidelines (募集要項). An overview of examination types and schedules is given <a href="#admission">below</a>.</p></li>
