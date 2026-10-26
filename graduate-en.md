@@ -26,7 +26,7 @@ has_contact: true
 
 <h2><span class="en">Welcome</span>To Prospective Students</h2>
 
-The Goshima Lab welcomes students who are eager to conduct research in **Finance × Data Science**. We accept students regardless of their university, their background in humanities or sciences, or whether they are working professionals. If you would like to discuss your research topic or ask about the program, a preliminary meeting (online is available) can be arranged. Please feel free to contact us.
+The Goshima Lab welcomes students who are eager to conduct research in **Finance × Data Science**. We accept students regardless of their university, their background in humanities or sciences, or whether they are working professionals. No prior permission from the lab is required to apply. If you would like a meeting to discuss the direction of your research topic or to ask about the program, please feel free to contact us (online meetings are available).
 
 <div class="callout">
   <p class="callout-title">Japanese language requirement</p>
@@ -132,7 +132,7 @@ Your previous faculty or graduate school does not matter, but the following are 
 <h2 id="flow"><span class="en">Application</span>How to Apply</h2>
 
 <ol class="steps">
-  <li><h3>Preliminary consultation</h3><p>A meeting (online is available) can be arranged to discuss your research topic, research plan, or questions about the program. However, to keep the admissions process fair, <strong>we do not review or proofread research plans or other application documents</strong>. For the doctoral program, matching with the supervisor (research topic and supervision style) is essential, so a preliminary meeting is strongly recommended. International applicants, please see <a href="#inquiry">how to contact us</a>.</p></li>
+  <li><h3>Preliminary meeting (optional)</h3><p>No prior permission from the lab is required to apply. If you would like a meeting to discuss the direction of your research topic or to ask about the program, please contact us (online meetings are available). However, to keep the admissions process fair, <strong>we do not review or proofread research plans or other application documents</strong>. For the doctoral program, matching with the supervisor (research topic and supervision style) is essential, so a preliminary meeting is strongly recommended. International applicants, please see <a href="#inquiry">how to contact us</a>.</p></li>
   <li><h3>Research topic</h3><p>You are expected to have a general direction for your research topic before entering the program. Since the master's program lasts only two years, having a topic in mind beforehand will make your research go more smoothly.</p></li>
   <li><h3>English test scores</h3><p>Official TOEFL-iBT or TOEIC Listening &amp; Reading scores are required for the general examinations with written tests, the working professionals examination of the Graduate School of International Social Sciences, and the doctoral program examination. Please take the test early enough.</p></li>
   <li><h3>Application and examination</h3><p>Choose the program and the examination type, and apply according to the official application guidelines (募集要項). An overview of examination types and schedules is given <a href="#admission">below</a>.</p></li>
